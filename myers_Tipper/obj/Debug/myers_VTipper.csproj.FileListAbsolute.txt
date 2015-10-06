@@ -1,0 +1,5 @@
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\bin\Debug\myers_Tipper.exe.config
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\bin\Debug\myers_Tipper.exe
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\bin\Debug\myers_Tipper.pdb
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\obj\Debug\myers_Tipper.exe
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\obj\Debug\myers_Tipper.pdb

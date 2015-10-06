@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myers_Tipper", "myers_Tipper\myers_Tipper.csproj", "{7FC5D5A1-76CE-45C4-A5C5-CFFD8EA034F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myers_VTipper", "myers_Tipper\myers_VTipper.csproj", "{7FC5D5A1-76CE-45C4-A5C5-CFFD8EA034F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

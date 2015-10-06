@@ -65,11 +65,11 @@ namespace VTipper
             Thread.Sleep(500);
             Console.WriteLine("You will then be prompted to select an option for calculating your tip:");
             Thread.Sleep(500);
-            Console.WriteLine("\tEnter the percentage of the bill to tip.");
+            Console.WriteLine("\tEnter the percentage of the bill to tip");
             Thread.Sleep(500);
-            Console.WriteLine("\tCalculating tip if splitting the bill.");
+            Console.WriteLine("\tCalculating tip if splitting the bill");
             Thread.Sleep(500);
-            Console.WriteLine("\tFind tip percent and tip amount if you tell the waitress to \"keep the change.\"");
+            Console.WriteLine("\tFind tip percent and tip amount if you tell the waitress to \"keep the change\"");
             Thread.Sleep(500);
             Console.Write("Press any key view and select the options...");
             Console.ReadKey();
@@ -84,11 +84,11 @@ namespace VTipper
             Thread.Sleep(500);
             Console.WriteLine("\tOption A) Enter a percent to tip");
             Thread.Sleep(500);
-            Console.WriteLine("\tOption B) Calculate tip and total if splitting with friends.");
+            Console.WriteLine("\tOption B) Calculate tip and total if splitting with friends");
             Thread.Sleep(500);
-            Console.WriteLine("\tOption C) Calculate percent and tip if rounding to nearest bill.");
+            Console.WriteLine("\tOption C) Calculate percent and tip if rounding to nearest bill");
             Thread.Sleep(500);
-            Console.Write("Please enter \"A\", \"B\", or \"C\" to select an option. >> ");
+            Console.Write("Please enter \"A\", \"B\", or \"C\" to select an option >> ");
             tipOptionOptions = Console.ReadLine();
             Console.Clear();
             if (tipOptionOptions == "A" || tipOptionOptions == "a")
@@ -106,7 +106,7 @@ namespace VTipper
             else
             {
                 //This is horrendous. I'm sure there's a better way to do this. 
-                while (tipOptionOptions != "A" || tipOptionOptions != "a" || tipOptionOptions != "B" || tipOptionOptions != "b" || tipOptionOptions != "C" || tipOptionOptions != "c")
+                while (tipOptionOptions != "A" && tipOptionOptions != "a" && tipOptionOptions != "B" && tipOptionOptions != "b" && tipOptionOptions != "C" && tipOptionOptions != "c")
                 {
                     Console.Write("Please enter a valid option of either \"A\", \"B\", or \"C\" >> ");
                     tipOptionOptions = Console.ReadLine();
@@ -134,7 +134,7 @@ namespace VTipper
             decimal tipPercentEntry = 0.0m;
             decimal tipPercentTipCalcA = 0.0m;
 
-            Console.Write("Please enter the percent of the bill that you'd like to tip. >> ");
+            Console.Write("Please enter the percent of the bill that you'd like to tip >> ");
             tipPercentEntry = decimal.Parse(Console.ReadLine());
             tipPercentTipCalcA = tipPercentEntry / 100;
             Thread.Sleep(500);
@@ -232,7 +232,7 @@ namespace VTipper
                 }
                 finalBillTCC = dollarBill;
                 tipPercentTCC = Math.Round(((tipAmountTCC / subTotalTCC) * 100), 2);
-                Console.WriteLine("If you gave the waitress a " + dollarBill + " bill, your tip would be {0:C}", tipAmountTCC);
+                Console.WriteLine("If you gave the waitress a " + dollarBill + " dollar bill, your tip would be {0:C}", tipAmountTCC);
                 Thread.Sleep(500);
                 Console.WriteLine("This would come out to a " + tipPercentTCC + " percent tip.");
                 Thread.Sleep(500);
