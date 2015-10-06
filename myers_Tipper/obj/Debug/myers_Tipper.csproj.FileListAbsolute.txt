@@ -1,0 +1,12 @@
+c:\users\dawn\documents\visual studio 2012\Projects\myers_Tipper\myers_Tipper\bin\Debug\myers_Tipper.exe.config
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_Tipper\myers_Tipper\bin\Debug\myers_Tipper.exe
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_Tipper\myers_Tipper\bin\Debug\myers_Tipper.pdb
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_Tipper\myers_Tipper\obj\Debug\myers_Tipper.csprojResolveAssemblyReference.cache
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_Tipper\myers_Tipper\obj\Debug\myers_Tipper.exe
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_Tipper\myers_Tipper\obj\Debug\myers_Tipper.pdb
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\bin\Debug\myers_Tipper.exe.config
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\obj\Debug\myers_Tipper.exe
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\obj\Debug\myers_Tipper.pdb
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\obj\Debug\myers_Tipper.csprojResolveAssemblyReference.cache
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\bin\Debug\myers_Tipper.exe
+C:\Users\Dawn\Documents\Visual Studio 2012\Projects\myers_VTipper\myers_Tipper\bin\Debug\myers_Tipper.pdb
