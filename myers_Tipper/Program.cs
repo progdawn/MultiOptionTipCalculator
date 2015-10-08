@@ -162,6 +162,14 @@ namespace VTipper
 
             Console.Write("Please enter the percent of the bill that you'd like to tip >> ");
             tipPercentEntryTCA = decimal.Parse(Console.ReadLine());
+
+            //user must enter a tip between 1 and 50
+            while (tipPercentEntryTCA < 1 || tipPercentEntryTCA > 50)
+            {
+                Console.Write("Please enter a percent to tip between 1% and 50% >> ");
+                tipPercentEntryTCA = decimal.Parse(Console.ReadLine());
+            }
+
             tipPercentTCA = tipPercentEntryTCA / 100; //makes a percent out of an int entry
             Thread.Sleep(500);
             tipAmountTCA = subTotalTCA * tipPercentTCA; //subtotal * percent = tip dollar amount
@@ -263,6 +271,14 @@ namespace VTipper
                 Console.Clear();
                 Console.Write("Please enter the bill you'd like to give to the waitress, greater than $" + subTotalTCC + " >> ");
                 dollarBill = int.Parse(Console.ReadLine());
+
+                //makes sure that user enters a single bill
+                while (dollarBill != 5 && dollarBill != 10 && dollarBill != 20 && dollarBill != 50 && dollarBill != 100)
+                {
+                    Console.Write("Please enter a single bill, such as $5, $10, $20, $50, or $100 >> ");
+                    dollarBill = int.Parse(Console.ReadLine());
+                }
+
                 tipAmountTCC = dollarBill - subTotalTCC; //calculates what the tip dollar amount would be
 				
 				//Makes sure user isn't coming up short on bill
